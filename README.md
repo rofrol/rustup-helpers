@@ -1,5 +1,7 @@
 # rustup-helpers
 
+Example usage in `example/` directory.
+
 ## Windows setup
 
 ### Install Visual C++ 2015 Build Tools
