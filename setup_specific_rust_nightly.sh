@@ -1,8 +1,5 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-cd $DIR
-
 export PATH=~/.cargo/bin:$PATH
 
 rustc_date_wanted="$1"
