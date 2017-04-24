@@ -18,10 +18,7 @@ function uninstall_rust() {
 
 function install_rust_official_method() {
   log "install_rust_official_method"
-  # Can't pipe file to sh https://github.com/rust-lang-nursery/rustup.rs/issues/1074
-  curl https://sh.rustup.rs -sSf -o rustup.sh && \
-  sh rustup.sh -y && \
-  rm rustup.sh
+  curl https://sh.rustup.rs -sSf | sh -s -- -y
 }
 
 function backup_rust() {
