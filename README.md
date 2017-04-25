@@ -3,7 +3,6 @@
 Scripts created as a workaround for:
 
 - cargo hangs on Windows 7 https://github.com/rust-lang-nursery/rustup.rs/issues/1075
-- sh: -y: No such file or directory https://github.com/rust-lang-nursery/rustup.rs/issues/1074
 - Time drift between nigthly version and rustc version https://github.com/SergioBenitez/Rocket/pull/256
 
 `./setup.sh` install Rust and `setup_specific_rust_nightly.sh` overrides rust version for directory.
